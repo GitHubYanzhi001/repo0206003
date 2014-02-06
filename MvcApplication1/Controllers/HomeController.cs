@@ -6,11 +6,11 @@ using System.Web.Mvc;
 
 namespace MvcApplication1.Controllers
 {
-   public class HomeController : Controller
+    -public class HomeController : Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "#1My awesome ASP.NET MVC application with changes.";
+            ViewBag.Message = "#2My awesome ASP.NET MVC application with changes.";
 
             return View();
         }
